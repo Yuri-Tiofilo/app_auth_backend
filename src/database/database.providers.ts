@@ -7,7 +7,7 @@ export const databaseProviders = [
       const dataSource = new DataSource({
         type: 'postgres',
         host: 'localhost',
-        port: 5432,
+        port: 5433,
         username: 'postgres',
         password: '16032014',
         database: 'nestjs_auth2',
